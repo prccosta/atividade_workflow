@@ -15,5 +15,6 @@ gulp.task("minificar-html", function(){
 });
 
 gulp.task("escuta-me", function(){
-	gulp.watch("./source/sass/*.scss", ["compilar-css"]);
+	gulp.watch("./source/scss/*.scss", ["compilar-css"]);
+	gulp.watch("./source/*.html", ["minificar-html"]);
 });
