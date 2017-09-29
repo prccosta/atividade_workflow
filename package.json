@@ -1,0 +1,20 @@
+{
+  "name": "certificacao-bootstrap",
+  "version": "1.0.0",
+  "description": "Curso Certificação Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "bootstrap"
+  ],
+  "author": "Priscila Costa",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
